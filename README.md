@@ -1,5 +1,5 @@
 # UQOpenFOAM
-Turbulence models for parametric UQ studies in OpenFOAM using the Bayesian-Model-Scenario-Averaging (BMSA) framework by 
+Turbulence models for parametric UQ studies in OpenFOAM using the Bayesian-Model-Scenario-Averaging (BMSA) framework by
 Edeling et al. (2014)
 
 Features
@@ -15,11 +15,11 @@ Installation
 -----------
 Each model can be compiled with the standard procedure
 
-'''
+```bash
 source <path-to-your-OpenFOAM-installation>/etc/bashrc
-cd <path-to-model>
+cd <path-to-model-in-reposotory>
 wmake
-'''
+```
 
 
 
