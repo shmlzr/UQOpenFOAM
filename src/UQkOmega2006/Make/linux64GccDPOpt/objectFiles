@@ -1,0 +1,2 @@
+OBJECTS = \
+$(OBJECTS_DIR)/UQkOmega2006.o

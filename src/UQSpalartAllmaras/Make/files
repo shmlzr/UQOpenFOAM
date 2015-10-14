@@ -1,0 +1,2 @@
+UQSpalartAllmaras.C
+LIB = $(FOAM_USER_LIBBIN)/libUQSpalartAllmaras

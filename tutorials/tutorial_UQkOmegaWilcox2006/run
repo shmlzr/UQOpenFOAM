@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#meshing
+blockMesh > log.blockMesh
+checkMesh > log.checkMesh
+
+#run simulation
+simpleFoam > log.simpleFoam
+
+#postprocessing
+wallShearStress -latestTime > log.wallShearStress
+#sample -latestTime > log.sample
+rm -fv system/sampleDict
+cd system
+ln -s sampleDict1 sampleDict
+cd ..
+sample -latestTime
+cd system
+rm -fv sampleDict
+ln -s sampleDict2 sampleDict
+cd ..
+sample -latestTime
+patchAverage p inlet -latestTime > inletPressure

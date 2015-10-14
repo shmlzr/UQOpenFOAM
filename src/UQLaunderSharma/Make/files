@@ -1,0 +1,3 @@
+UQLaunderSharma.C
+
+LIB = $(FOAM_USER_LIBBIN)/libUQLaunderSharma
