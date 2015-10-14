@@ -11,6 +11,19 @@ The following turbulence models are available in the library
 * Spalart-Allmaras (Based on the standard implementation in OpenFOAM 2.3.3)
 
 
+Installation
+-----------
+Each model can be compiled with the standard procedure
+
+'''
+source <path-to-your-OpenFOAM-installation>/etc/bashrc
+cd <path-to-model>
+wmake
+'''
+
+
+
+
 References
 -----------
 W. Edeling
