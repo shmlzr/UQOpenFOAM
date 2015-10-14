@@ -17,7 +17,7 @@ Each model can be compiled with the standard procedure
 
 ```bash
 source <path-to-your-OpenFOAM-installation>/etc/bashrc
-cd <path-to-model-in-reposotory>
+cd <path-to-model-in-repository>
 wmake
 ```
 
